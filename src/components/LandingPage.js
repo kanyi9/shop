@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const categories = [
   {
@@ -51,6 +52,7 @@ const products = [
 ];
 
 function LandingPage() {
+    const navigate = useNavigate();
   return (
     <>
       <header style={styles.header}>
@@ -84,7 +86,7 @@ function LandingPage() {
           <p style={styles.heroDesc}>
             Shop the latest trends and timeless classics, all in one place.
           </p>
-          <button style={styles.btnPrimary} aria-label="Shop now">
+          <button style={styles.btnPrimary} aria-label="Shop now"  onClick={() => navigate('/login')}>
             Shop Now
           </button>
         </section>
