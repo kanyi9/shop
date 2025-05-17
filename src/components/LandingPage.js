@@ -57,7 +57,7 @@ function LandingPage() {
     <>
       <header style={styles.header}>
         <div style={styles.logo} aria-label="ShopEase logo">
-          ShopEase
+          HilSourcenter
         </div>
         <nav aria-label="Primary navigation" style={styles.nav}>
           <a href="#" tabIndex={0} style={styles.navLink}>
@@ -155,7 +155,7 @@ function LandingPage() {
             Instagram
           </a>
         </p>
-        <p>&copy; 2024 ShopEase. All rights reserved.</p>
+        <p>&copy; 2025 HilSourcenter. All rights reserved.</p>
       </footer>
     </>
   );
