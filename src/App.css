@@ -106,6 +106,14 @@ nav a:hover::after {
   transform: scale(1.05);
   box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
 }
+.btn-secondary{
+  background: linear-gradient(135deg, var(--mongrel-gold) 0%, var(--sunray) 100%);
+  color: var(--royal-blue);
+}
+.btn-secondary:hover{
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
+}
 
 .top-section {
   display: flex;

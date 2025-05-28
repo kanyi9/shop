@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 const Header = () => {
@@ -10,7 +11,10 @@ const Header = () => {
         <a href="#">Contact</a>
         <a href="#">About Us</a>
       </nav>
-      <button className="btn btn-primary">Login / Sign Up</button>
+      <div className="button-group">
+        <button className="btn btn-primary">Buyer</button>
+        <button className="btn btn-secondary">Supplier</button>
+      </div>
     </header>
   );
 };
